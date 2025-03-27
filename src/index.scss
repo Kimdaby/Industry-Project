@@ -1,0 +1,16 @@
+@use "./styles/partials/mixins" as *;
+@use "./styles/partials/typography" as *;
+@use "./styles/partials/variables" as *;
+@use "./styles/partials/colors" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
