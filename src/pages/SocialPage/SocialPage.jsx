@@ -1,10 +1,14 @@
 import './SocialPage.scss'
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+
 
 function SocialPage() {
 
 
     return (
         <>
+        <Header />
             <div className='social-page'>
                 <section className='social-page__headline'>
                     <h1>Hi User!</h1>
@@ -20,16 +24,16 @@ function SocialPage() {
                     <h2 className='social-page__friends-headline'>My Network</h2>
                     <div className="social-page__friends-container">
                         <div className='social-page__friends-bubble'>
-                            <img src='https://picsum.photos/500/201' alt='phFriend 1' className='social-page__friends-img' />
+                            <img src='/public/images/friend.jpg' alt='phFriend 1' className='social-page__friends-img' />
                             <p>Zachary Smith</p></div>
                         <div className='social-page__friends-bubble'>
-                            <img src='/public/images/win_oscars.jpg' alt='phFriend 2' className='social-page__friends-img' />
+                            <img src='/public/images/friend.jpg' alt='phFriend 2' className='social-page__friends-img' />
+                            <p>Philomena Cunk</p></div>
+                        <div className='social-page__friends-bubble'>
+                            <img src='/public/images/friend.jpg' alt='phFriend 3' className='social-page__friends-img' />
                             <p>Zachary Smith</p></div>
                         <div className='social-page__friends-bubble'>
-                            <img src='https://picsum.photos/500/202' alt='phFriend 3' className='social-page__friends-img' />
-                            <p>Zachary Smith</p></div>
-                        <div className='social-page__friends-bubble'>
-                            <img src='/public/images/win_oscars.jpg' alt='phFriend 4' className='social-page__friends-img' />
+                            <img src='/public/images/friend.jpg' alt='phFriend 4' className='social-page__friends-img' />
                             <p>Zachary Smith</p></div>
                     </div>
                 </section>
@@ -38,24 +42,24 @@ function SocialPage() {
                         <h3 className='social-page__trending-headline'>Friend Trends</h3>
                         <div className='social-page__trending-friends-scroll'>
                             <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='social-page__trending-img' />
-                                <p>details</p>
+                                <img src='/public/images/Barry.jpg' alt='recommendedphoto1' className='social-page__trending-img' />
+                                
                             </article>
                             <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='social-page__trending-img' />
-                                <p>details</p>
+                                <img src='/public/images/LastofUs.jpg' alt='recommendedphoto2' className='social-page__trending-img' />
+                                
                             </article>
                             <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='social-page__trending-img' />
-                                <p>details</p>
+                                <img src='/public/images/looneytunes.jpg' alt='recommendedphoto3' className='social-page__trending-img' />
+                               
                             </article>
                             <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='social-page__trending-img' />
-                                <p>details</p>
+                                <img src='/public/images/penguin.jpg' alt='recommendedphoto4' className='social-page__trending-img' />
+                               
                             </article>
                             <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='social-page__trending-img' />
-                                <p>details</p>
+                                <img src='/public/images/succession.jpg' alt='recommendedphoto5' className='social-page__trending-img' />
+                                
                             </article>
                         </div>
                     </div>
@@ -135,6 +139,9 @@ function SocialPage() {
 
 
             </div>
+        
+        <Footer />
+
         </>
     );
 }
