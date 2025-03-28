@@ -144,35 +144,35 @@ function SocialPage() {
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/LastofUs.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/succession.jpg"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/haley-quinn.png"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/DMZ.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/DarkMaterials.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
