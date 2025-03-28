@@ -17,7 +17,7 @@ function FriendPage() {
           <div className="social-page__friends-container">
             <div className="social-page__friends-bubble1">
               <img
-                src="/public/images/friend.jpg"
+                src="/public/images/Zachary_smith.png"
                 alt="phFriend 4"
                 className="social-page__friends-img"
               />
