@@ -13,6 +13,7 @@ function SocialPage() {
                 <section className='social-page__searchbar'>
                     <label className='social-page__searchbar-label'></label>
                     <input className='social-page__searchbar-input' placeholder='Find Friends'></input>
+                    <img src='/public/images/search-24px.svg' alt='searchIcon' className='social-page__seachbar-icon' />
                 </section>
 
                 <section className='social-page__friends'>
