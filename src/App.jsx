@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<SocialPage/>}/>
+      <Route path='/' element={<HomePage/>}/>
       <Route path='/tvshow' element={<SingleMoviePage/>}/>
-      {/* <Route path='/social' element={<SocialPage/>}/> */}
+      <Route path='/social' element={<SocialPage/>}/>
       <Route path='/user1' element={<SingleUserPage/>}/>
       <Route path='/categories' element={<ColllectionsPage/>}/>
     </Routes>
