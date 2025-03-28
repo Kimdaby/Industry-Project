@@ -1,6 +1,7 @@
 import "./SocialPage.scss";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import { Link } from "react-router-dom";
 
 function SocialPage() {
   return (
@@ -114,6 +115,7 @@ function SocialPage() {
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
+                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -121,6 +123,7 @@ function SocialPage() {
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
+                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -128,6 +131,7 @@ function SocialPage() {
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
+                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -135,6 +139,7 @@ function SocialPage() {
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
+                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -142,6 +147,7 @@ function SocialPage() {
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
+                <p>details</p>
               </article>
             </div>
           </div>
@@ -150,9 +156,9 @@ function SocialPage() {
         <section className="social-page__episode-section">
           <div className="social-page__episode-headline-container">
             <h2 className="social-page__episode-headline">Your Circles</h2>
-            <p>+ see all</p>
+            <p>+</p>
           </div>
-          <div className="social-page__episode-card">
+          <Link to="/categories" className="social-page__episode-card">
             <img
               className="social-page__episode-img"
               src="/public/images/00Quack.jpg"
@@ -167,7 +173,7 @@ function SocialPage() {
               src="/public/images/three-dots-vertical.svg"
               alt="more items"
             />
-          </div>
+          </Link>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
@@ -222,7 +228,6 @@ function SocialPage() {
           </div>
         </section>
       </div>
-
       <Footer />
     </>
   );

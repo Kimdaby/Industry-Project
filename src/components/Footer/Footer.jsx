@@ -5,11 +5,12 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"
 
 const Footer = () => {
 //   const [value, setValue] = useState(0);
     const [value, setValue] = useState(0);
-
+    const navigate = useNavigate();
 
   return (
     <Paper
@@ -39,9 +40,15 @@ const Footer = () => {
           },
         }}
       >
-        <BottomNavigationAction icon={<HomeIcon />} />
+        <BottomNavigationAction
+          icon={<HomeIcon />}
+          onClick={() => navigate("/")}
+        />
         <BottomNavigationAction icon={<BookmarkBorderIcon />} />
-        <BottomNavigationAction icon={<AccountCircleIcon />} />
+        <BottomNavigationAction
+          icon={<AccountCircleIcon />}
+          onClick={() => navigate("/social")}
+        />
         <BottomNavigationAction icon={<FileDownloadIcon />} />
         <BottomNavigationAction icon={<SearchIcon />} />
       </BottomNavigation>

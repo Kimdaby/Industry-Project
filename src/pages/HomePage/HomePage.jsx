@@ -1,8 +1,16 @@
 import React from "react";
-import FriendPage from "../FriendPage/FriendPage";
+import "./HomePage.scss";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 function HomePage() {
-  return <FriendPage />;
+  return (
+    <>
+      <Header />
+      <div className="home-page"></div>
+      <Footer />
+    </>
+  );
 }
 
 export default HomePage;
