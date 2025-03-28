@@ -53,15 +53,15 @@ function SocialPage() {
                 alt="phFriend 3"
                 className="social-page__friends-img"
               />
-              <p>Sarah_Johnson</p>
+              <p>Sarah Johnson</p>
             </div>
             <div className="social-page__friends-bubble">
               <img
-                src="/public/images/friend.jpg"
+                src="/public/images/Jenna_Walcott.png"
                 alt="phFriend 4"
                 className="social-page__friends-img"
               />
-              <p>Zachary Smith</p>
+              <p>Jenna Walcott</p>
             </div>
           </div>
         </section>
@@ -169,7 +169,7 @@ function SocialPage() {
           <Link to="/categories" className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -185,7 +185,7 @@ function SocialPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/DarkMaterials.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -201,7 +201,7 @@ function SocialPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/looneytunes.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -221,11 +221,11 @@ function SocialPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/Barry.jpg"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
-              <h3>Fantasy Family</h3>
+              <h3>Comedy</h3>
               <p>You, Zachary, Sarah and 3 others</p>
             </div>
             <img

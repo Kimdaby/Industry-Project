@@ -11,7 +11,7 @@ function ColllectionsPage() {
                 </button>
             </section>
             <section className='empty-box'>
-                <div className='box'></div>
+                <div className='box'><img src='/public/images/FantasyFamily200.png' alt='fantasy'/></div>
             </section>
 
             <section className='category-title__container'>
@@ -31,19 +31,19 @@ function ColllectionsPage() {
                         <h3 className='category-page__trending-headline'>Keep Up With Groups</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
+                                <img src='/public/images/succession.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
+                                <img src='/public/images/Titans.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
+                                <img src='/public/images/HouseD.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
+                                <img src='/public/images/DarkMaterials.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
+                                <img src='/public/images/penguin.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
                             </article>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function ColllectionsPage() {
                         <h3 className='category-page__trending-headline'>Group Recomendations</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
+                                <img src='/public/images/LastofUs.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
                                 <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
@@ -76,7 +76,7 @@ function ColllectionsPage() {
                         <h3 className='category-page__trending-headline'>Group Watch History</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
+                                <img src='/public/images/HouseD.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
                             </article>
                             <article className='category-page__trending-card'>
                                 <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
