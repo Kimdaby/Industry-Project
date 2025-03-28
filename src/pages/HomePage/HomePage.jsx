@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import FriendPage from "../FriendPage/FriendPage";
 
 function HomePage() {
-  return (
-    <div>HomePage</div>
-  )
+  return <FriendPage />;
 }
 
-export default HomePage
+export default HomePage;
