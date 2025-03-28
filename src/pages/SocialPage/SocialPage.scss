@@ -275,3 +275,28 @@
 
 
   
+.card-wrapper{
+    position:relative;
+}
+
+.watched-container{
+    position:absolute;
+    background-color:white;
+    color:black;
+    display:flex;
+    align-items: center;
+
+    &__img{
+        width:25px;
+        height:15px;
+    }
+}
+
+.watched-text{
+    font-size:0.75rem;
+    margin-right:0.5rem;
+    margin-top:0.15rem;
+    margin-bottom:0.15rem;
+    font-weight:bold;
+}
+

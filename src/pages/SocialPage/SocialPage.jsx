@@ -70,11 +70,21 @@ function SocialPage() {
             <h3 className="social-page__trending-headline">Friend Favorites</h3>
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
+                <div className='card-wrapper'>
+                    <div className='watched-container'>
+                    <img
+                    src="public/images/profile-circle-svgrepo-com.svg"
+                    alt="recommendedphoto2"
+                    className="watched-container__img"
+                    />
+                    <p className='watched-text'>Watched by 12</p>
+                    </div>
                 <img
                   src="/public/images/Barry.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
+                </div>
               </article>
               <article className="social-page__trending-card">
                 <img
