@@ -6,10 +6,14 @@
 
 .social-page {
     font-family: 'Open Sans', sans-serif;
-    background: #000;
+    // background: #000;
     color: #fff;
     padding-bottom: 2rem;
-
+    background: linear-gradient(135deg,
+            #0a0a1f 0%,
+            #1c103b 40%,
+            #2a0e5a 70%,
+            #3a1676 100%);
 
     &__headline {
         padding: 1rem;
@@ -18,10 +22,34 @@
 
     &__friends {
         padding: 1rem;
+        overflow: hidden;
 
         &-container {
+            // display: flex;
+            // flex-direction: row;
+            // padding-top: 1rem;
+            display: inline-flex;
+            flex-wrap: nowrap;
+            // flex-direction: row;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 1rem 0;
+            gap: 1rem;
+
+
+
+        }
+
+        &-bubble {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-right: 1rem;
+
+            & p {
+                width: 75%;
+            }
         }
 
         &-img {
@@ -31,7 +59,7 @@
             display: flex;
             justify-content: stretch;
             object-fit: cover;
-            margin-right: 1rem;
+            margin-bottom: 1rem;
         }
     }
 
@@ -40,9 +68,7 @@
         overflow: hidden;
         padding: 1rem;
 
-        &-friends {
-
-        }
+        &-friends {}
 
         &-friends-scroll {
             width: 100%;
@@ -63,8 +89,53 @@
         &-img {
             width: 100%;
             height: 12.5rem;
+            object-fit: cover;
             border-radius: 0.5rem;
         }
     }
 
+
+    &__episode {
+
+        &-section {
+            padding: 1rem;
+        }
+
+        &-headline {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        &-card {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            img {
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+                border-radius: 0.25rem;
+            }
+        }
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & h3 {
+                font-size: 0.95rem;
+                margin: 0;
+            }
+
+            & p {
+                font-size: 0.8rem;
+                color: #bbb;
+            }
+        }
+    }
 }
