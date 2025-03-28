@@ -6,20 +6,60 @@
 
 .social-page {
 
-    &__friends-container {
-        display: flex;
-        flex-direction: row;
+    &__headline {
+        padding: 1rem;
     }
 
-    &__friends-img {
+
+    &__friends {
+        padding: 1rem;
+
+        &-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &-img {
             width: 6.25rem;
             height: 6.25rem;
             border-radius: 50%;
-            // background-color: $Mercury;
             display: flex;
             justify-content: stretch;
-            margin: 1rem;
             object-fit: cover;
+            margin-right: 1rem;
         }
-    
+    }
+
+    &__trending {
+        width: 100%;
+        overflow: hidden;
+        padding: 1rem;
+
+        &-friends {
+
+        }
+
+        &-friends-scroll {
+            width: 100%;
+            display: inline-flex;
+            flex-wrap: nowrap;
+            // flex-direction: row;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            padding: 1rem 0;
+            gap: 1rem;
+        }
+
+        &-card {
+            min-width: 10rem;
+            flex-direction: 0 0 auto;
+        }
+
+        &-img {
+            width: 100%;
+            height: 12.5rem;
+            border-radius: 0.5rem;
+        }
+    }
+
 }
