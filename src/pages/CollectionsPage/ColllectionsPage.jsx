@@ -28,7 +28,7 @@ function ColllectionsPage() {
 
                 <section className='category-page__trending'>
                     <div className='category-page__trending-friends'>
-                        <h3 className='category-page__trending-headline'>Keep Up With Friends</h3>
+                        <h3 className='category-page__trending-headline'>Keep Up With Groups</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
                                 <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
@@ -51,7 +51,7 @@ function ColllectionsPage() {
 
                 <section className='category-page__trending'>
                     <div className='category-page__trending-friends'>
-                        <h3 className='category-page__trending-headline'>Circle Recomendations</h3>
+                        <h3 className='category-page__trending-headline'>Group Recomendations</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
                                 <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
@@ -73,7 +73,29 @@ function ColllectionsPage() {
                 </section>
                 <section className='category-page__trending'>
                     <div className='category-page__trending-friends'>
-                        <h3 className='category-page__trending-headline'>Recent Watch History</h3>
+                        <h3 className='category-page__trending-headline'>Group Watch History</h3>
+                        <div className='category-page__trending-friends-scroll'>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <section className='category-page__trending'>
+                    <div className='category-page__trending-friends'>
+                        <h3 className='category-page__trending-headline'>Group Watchlist</h3>
                         <div className='category-page__trending-friends-scroll'>
                             <article className='category-page__trending-card'>
                                 <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />

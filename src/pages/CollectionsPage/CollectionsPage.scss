@@ -96,7 +96,6 @@
         &-headline {
             // margin-bottom: 1rem;
             font-size: 1rem;
-            font-weight:500;
             // padding-top: 1rem;
             // padding-bottom: 1rem;
         }
@@ -161,8 +160,8 @@
         }
 
         &-img {
-            width: 10rem;
-            height: 10rem;
+            width: 5rem;
+            height: 5rem;
             object-fit: cover;
             border-radius: 0.25rem;
         }
@@ -217,17 +216,19 @@
 
     &__text{
         font-size:1rem;
-        font-weight:500;
+        font-weight:600;
+        padding-bottom:0.25rem;
     }
 
-    &__friends{
-        font-weight:300;
-    }
+    // &__friends{
+    //     font-weight:300;
+    // }
   }
   
 
   .wrapper{
     display:flex;
+    padding-bottom:0.5rem;
 
   }
 
@@ -253,13 +254,13 @@
   
     &--gray {
       background-color: #bbb;
-      left: 10px;
+      left: 8px;
       z-index: 2;
     }
   
     &--dark {
       background-color: #555;
-      left: 20px;
+      left: 16px;
       z-index: 3;
     }
   }
