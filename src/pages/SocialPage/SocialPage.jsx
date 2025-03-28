@@ -28,14 +28,14 @@ function SocialPage() {
         <section className="social-page__friends">
           <h2 className="social-page__friends-headline">My Network</h2>
           <div className="social-page__friends-container">
-            <div className="social-page__friends-bubble">
-              <img
-                src="/public/images/friend.jpg"
+          <Link to="/user1" className="social-page__friends-bubble">
+            <img
+                src="/images/friend.jpg"
                 alt="phFriend 1"
                 className="social-page__friends-img"
-              />
-              <p>Zachary Smith</p>
-            </div>
+            />
+            <p>Zachary Smith</p>
+        </Link>
             <div className="social-page__friends-bubble">
               <img
                 src="/public/images/friend.jpg"
