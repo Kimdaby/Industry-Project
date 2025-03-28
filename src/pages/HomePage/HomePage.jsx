@@ -1,8 +1,15 @@
 import React from 'react'
+import './HomePage.scss'
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <>
+    <Header />
+        <div className='home-page'></div>
+    <Footer />
+    </>
   )
 }
 
