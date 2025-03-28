@@ -33,7 +33,7 @@ function SocialPage() {
           <div className="social-page__friends-container">
           <Link to="/user1" className="social-page__friends-bubble">
             <img
-                src="/images/friend.jpg"
+                src="/images/Zachary_Smith.png"
                 alt="phFriend 1"
                 className="social-page__friends-img"
             />
@@ -41,19 +41,19 @@ function SocialPage() {
         </Link>
             <div className="social-page__friends-bubble">
               <img
-                src="/public/images/friend.jpg"
+                src="public/images/Jonathon_Lee16.png"
                 alt="phFriend 2"
                 className="social-page__friends-img"
               />
-              <p>Philomena Cunk</p>
+              <p>Jonathan Lee</p>
             </div>
             <div className="social-page__friends-bubble">
               <img
-                src="/public/images/friend.jpg"
+                src="public/images/Sarah_Johnson.png"
                 alt="phFriend 3"
                 className="social-page__friends-img"
               />
-              <p>Zachary Smith</p>
+              <p>Sarah_Johnson</p>
             </div>
             <div className="social-page__friends-bubble">
               <img
