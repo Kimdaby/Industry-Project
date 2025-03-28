@@ -8,9 +8,6 @@ function SocialPage() {
     <>
       <Header />
       <div className="social-page">
-        <section className="social-page__headline">
-          <h1>Hi User!</h1>
-        </section>
 
         <section className="social-page__searchbar">
           <label className="social-page__searchbar-label"></label>
@@ -64,7 +61,7 @@ function SocialPage() {
         </section>
         <section className="social-page__trending">
           <div className="social-page__trending-friends">
-            <h3 className="social-page__trending-headline">Friend Trends</h3>
+            <h3 className="social-page__trending-headline">Friend Favorites</h3>
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
@@ -107,7 +104,7 @@ function SocialPage() {
 
         <section className="social-page__trending">
           <div className="social-page__trending-friends">
-            <h3 className="social-page__trending-headline">Keep up Friends</h3>
+            <h3 className="social-page__trending-headline">Keep Up With Friends</h3>
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
@@ -115,7 +112,6 @@ function SocialPage() {
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
-                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -123,7 +119,6 @@ function SocialPage() {
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
-                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -131,7 +126,6 @@ function SocialPage() {
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
-                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -139,7 +133,6 @@ function SocialPage() {
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
-                <p>details</p>
               </article>
               <article className="social-page__trending-card">
                 <img
@@ -147,7 +140,6 @@ function SocialPage() {
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
-                <p>details</p>
               </article>
             </div>
           </div>
@@ -155,7 +147,7 @@ function SocialPage() {
 
         <section className="social-page__episode-section">
           <div className="social-page__episode-headline-container">
-            <h2 className="social-page__episode-headline">Your Circles</h2>
+            <h2 className="social-page__episode-headline">Your Groups</h2>
             <p>+</p>
           </div>
           <Link to="/categories" className="social-page__episode-card">
@@ -209,7 +201,7 @@ function SocialPage() {
         </section>
 
         <section className="social-page__episode-section">
-          <h2 className="social-page__episode-headline">Recommended Circle</h2>
+          <h2 className="social-page__episode-headline">Recommended Groups</h2>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
