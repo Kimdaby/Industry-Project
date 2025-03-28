@@ -89,19 +89,13 @@
         padding: 1rem;
 
         &-headline {
-            // margin-bottom: 1rem;
             font-size: 1rem;
-            // padding-top: 1rem;
-            // padding-bottom: 1rem;
         }
-
-        &-friends {}
 
         &-friends-scroll {
             width: 100%;
             display: inline-flex;
             flex-wrap: nowrap;
-            // flex-direction: row;
             overflow-x: scroll;
             overflow-y: hidden;
             padding: 1rem 0;
@@ -140,10 +134,7 @@
         }
 
         &-headline {
-            // margin-bottom: 1rem;
             font-size: 1rem;
-            // padding-top: 1rem;
-            // padding-bottom: 1rem;
         }
 
         &-card {
