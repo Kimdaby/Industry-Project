@@ -1,119 +1,98 @@
 import React from 'react'
+import './CollectionsPage.scss'
 
 function ColllectionsPage() {
     return (
         <>
-            <div className='social-page'>
-                <section className='social-page__headline'>
-                    <h1>Hi User!</h1>
+            <div className='category-page'>
+            <section className='category-page__headline'>
+                <button className='category-page__back-button' onClick={() => window.history.back()}>
+                    <img src='/public/images/211686_back_arrow_icon.svg' alt='Back' className='category-page__back-icon'/>
+                </button>
+            </section>
+            <section className='empty-box'>
+                <div className='box'></div>
+            </section>
+
+            <section className='category-title__container'>
+                <div className='category-title__text'>Fantasy Family</div>
+                <div className='wrapper'>
+                    <div className='circle-group'>
+                        <div className='circle circle--white'></div>
+                        <div className='circle circle--gray'></div>
+                        <div className='circle circle--dark'></div>
+                </div>
+                    <div className='category-title__friends'>You, Caleb, and 6 others</div>
+                </div>
                 </section>
 
-                <section className='social-page__searchbar'>
-                    <label className='social-page__searchbar-label'></label>
-                    <input className='social-page__searchbar-input' placeholder='Find Friends'></input>
-                </section>
-
-                <section className='social-page__trending'>
-                    <div className='social-page__trending-friends'>
-                        <h3 className='social-page__trending-headline'>Friend Trends</h3>
-                        <div className='social-page__trending-friends-scroll'>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='social-page__trending-img' />
-                                <p>details</p>
+                <section className='category-page__trending'>
+                    <div className='category-page__trending-friends'>
+                        <h3 className='category-page__trending-headline'>Keep Up With Friends</h3>
+                        <div className='category-page__trending-friends-scroll'>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
                             </article>
                         </div>
                     </div>
                 </section>
 
-                <section className='social-page__trending'>
-                    <div className='social-page__trending-friends'>
-                        <h3 className='social-page__trending-headline'>Keep up Friends</h3>
-                        <div className='social-page__trending-friends-scroll'>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='social-page__trending-img' />
-                                <p>details</p>
+                <section className='category-page__trending'>
+                    <div className='category-page__trending-friends'>
+                        <h3 className='category-page__trending-headline'>Circle Recomendations</h3>
+                        <div className='category-page__trending-friends-scroll'>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
                             </article>
-                            <article className='social-page__trending-card'>
-                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='social-page__trending-img' />
-                                <p>details</p>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
                             </article>
                         </div>
                     </div>
                 </section>
-
-
-                <section className="social-page__episode-section">
-                    <div className='social-page__episode-headline-container'>
-                        <h2 className='social-page__episode-headline'>Your Circles</h2>
-                        <p>+</p>
-                    </div>
-                    <div className="social-page__episode-card">
-                        <img className="social-page__episode-img" src='/public/images/00Quack.jpg' alt="Episode 1" />
-                        <div className="social-page__episode-text">
-                            <h3>Fantasy Family</h3>
-                            <p>You, Zachary, Sarah and 3 others</p>
+                <section className='category-page__trending'>
+                    <div className='category-page__trending-friends'>
+                        <h3 className='category-page__trending-headline'>Recent Watch History</h3>
+                        <div className='category-page__trending-friends-scroll'>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto1' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto2' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto3' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto4' className='category-page__trending-img' />
+                            </article>
+                            <article className='category-page__trending-card'>
+                                <img src='/public/images/00Quack.jpg' alt='recommendedphoto5' className='category-page__trending-img' />
+                            </article>
                         </div>
-                        <img className='three-dots-image' src='/public/images/three-dots-vertical.svg' alt='more items'/>
-                    </div>
-                    <div className="social-page__episode-card">
-                        <img className="social-page__episode-img" src='/public/images/00Quack.jpg' alt="Episode 2" />
-                        <div className="social-page__episode-text">
-                            <h3>Thriller Takeover</h3>
-                            <p>You, Zachary, Jenna and 3 others</p>
-                        </div>
-                        <img className='three-dots-image' src='/public/images/three-dots-vertical.svg' alt='more items'/>
-                    </div>
-                    <div className="social-page__episode-card">
-                        <img className="social-page__episode-img" src='/public/images/00Quack.jpg' alt="Episode 2" />
-                        <div className="social-page__episode-text">
-                            <h3>Animation Addicts</h3>
-                            <p>You, Jonathan, Jenna, and 3 others</p>
-                        </div>
-                        <img className='three-dots-image' src='/public/images/three-dots-vertical.svg' alt='more items'/>
                     </div>
                 </section>
-
-                <section className="social-page__episode-section">
-                    <h2 className='social-page__episode-headline'>Recommended Circle</h2>
-                    <div className="social-page__episode-card">
-                        <img className="social-page__episode-img" src='/public/images/00Quack.jpg' alt="Episode 1" />
-                        <div className="social-page__episode-text">
-                            <h3>Fantasy Family</h3>
-                            <p>You, Zachary, Sarah and 3 others</p>
-                        </div>
-                        <img className='three-dots-image' src='/public/images/three-dots-vertical.svg' alt='more items'/>
-                    </div>
-                </section>
-
-
             </div>
         </>
     );
