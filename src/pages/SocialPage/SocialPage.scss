@@ -2,3 +2,24 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
+
+
+.social-page {
+
+    &__friends-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__friends-img {
+            width: 6.25rem;
+            height: 6.25rem;
+            border-radius: 50%;
+            // background-color: $Mercury;
+            display: flex;
+            justify-content: stretch;
+            margin: 1rem;
+            object-fit: cover;
+        }
+    
+}
