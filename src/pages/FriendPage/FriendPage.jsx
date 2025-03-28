@@ -52,21 +52,21 @@ function FriendPage() {
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/LastofUs.jpg"
+                  src="/public/images/penguin.jpg"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/looneytunes.jpg"
+                  src="/public/images/haley-quinn.png"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/penguin.jpg"
+                  src="/public/images/Titans.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
@@ -90,35 +90,35 @@ function FriendPage() {
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/DMZ.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images//haley-quinn.png"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/HouseD.jpg"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/Barry.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/00Quack.jpg"
+                  src="/public/images/LastofUS.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
@@ -135,7 +135,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -151,7 +151,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/DarkMaterials.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -167,7 +167,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/haley-quinn.png"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -187,7 +187,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/00Quack.jpg"
+              src="/public/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
