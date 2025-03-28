@@ -1,12 +1,16 @@
 import "./App.scss";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage/HomePage'
+import SingleMoviePage from './pages/SingleMoviePage/SingleMoviePage'
 
 function App() {
-
-
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='tvshow' element={<SingleMoviePage/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
