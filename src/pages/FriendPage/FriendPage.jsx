@@ -17,7 +17,7 @@ function FriendPage() {
           <div className="social-page__friends-container">
             <div className="social-page__friends-bubble1">
               <img
-                src="/public/images/Zachary_smith.png"
+                src="/images/Zachary_Smith.png"
                 alt="phFriend 4"
                 className="social-page__friends-img"
               />
@@ -37,14 +37,14 @@ function FriendPage() {
               <div className='card-wrapper'>
                     <div className='watched-container'>
                     <img
-                    src="public/images/profile-circle-svgrepo-com.svg"
+                    src="images/profile-circle-svgrepo-com.svg"
                     alt="recommendedphoto2"
                     className="watched-container__img"
                     />
                     <p className='watched-text'>Watched by 12</p>
                     </div>
                 <img
-                  src="/public/images/Barry.jpg"
+                  src="/images/Barry.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
@@ -52,28 +52,28 @@ function FriendPage() {
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/penguin.jpg"
+                  src="/images/penguin.jpg"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/haley-quinn.png"
+                  src="/images/haley-quinn.png"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/Titans.jpg"
+                  src="/images/Titans.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/succession.jpg"
+                  src="/images/succession.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
@@ -90,35 +90,35 @@ function FriendPage() {
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/DMZ.jpg"
+                  src="/images/DMZ.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images//haley-quinn.png"
+                  src="/images//haley-quinn.png"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/HouseD.jpg"
+                  src="/images/HouseD.jpg"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/Barry.jpg"
+                  src="/images/Barry.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/LastofUS.jpg"
+                  src="/images/LastofUs.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
@@ -135,7 +135,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/FantasyFamily200.png"
+              src="/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -144,14 +144,14 @@ function FriendPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/DarkMaterials.jpg"
+              src="/images/DarkMaterials.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -160,14 +160,14 @@ function FriendPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/haley-quinn.png"
+              src="/images/haley-quinn.png"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -176,7 +176,7 @@ function FriendPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
@@ -187,7 +187,7 @@ function FriendPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/FantasyFamily200.png"
+              src="/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -196,7 +196,7 @@ function FriendPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
