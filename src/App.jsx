@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<HomePage/>}/>
+      <Route path='/' element={<SocialPage/>}/>
       <Route path='/tvshow' element={<SingleMoviePage/>}/>
       <Route path='/social' element={<SocialPage/>}/>
       <Route path='/user1' element={<FriendPage/>}/>
