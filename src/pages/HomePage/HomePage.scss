@@ -1,0 +1,15 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.home-page {
+    height: 100vh;
+    background: linear-gradient(
+      135deg,
+      #050510 0%,
+      #0b061d 40%,
+      #140a2e 70%,
+      #1c0f3d 100%
+    );
+  }
