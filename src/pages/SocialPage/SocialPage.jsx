@@ -14,7 +14,7 @@ function SocialPage() {
           <div className="social-page__searchbar">
   <div className="social-page__searchbar-wrapper">
     <img
-      src="/public/images/search-24px.svg"
+      src="/images/search-24px.svg"
       alt="searchIcon"
       className="social-page__searchbar-icon"
     />
@@ -41,7 +41,7 @@ function SocialPage() {
         </Link>
             <div className="social-page__friends-bubble">
               <img
-                src="public/images/Jonathon_Lee16.png"
+                src="images/Jonathon_Lee16.png"
                 alt="phFriend 2"
                 className="social-page__friends-img"
               />
@@ -49,7 +49,7 @@ function SocialPage() {
             </div>
             <div className="social-page__friends-bubble">
               <img
-                src="public/images/Sarah_Johnson.png"
+                src="images/Sarah_Johnson.png"
                 alt="phFriend 3"
                 className="social-page__friends-img"
               />
@@ -57,7 +57,7 @@ function SocialPage() {
             </div>
             <div className="social-page__friends-bubble">
               <img
-                src="/public/images/Jenna_Walcott.png"
+                src="/images/Jenna_Walcott.png"
                 alt="phFriend 4"
                 className="social-page__friends-img"
               />
@@ -73,14 +73,14 @@ function SocialPage() {
                 <div className='card-wrapper'>
                     <div className='watched-container'>
                     <img
-                    src="public/images/profile-circle-svgrepo-com.svg"
+                    src="images/profile-circle-svgrepo-com.svg"
                     alt="recommendedphoto2"
                     className="watched-container__img"
                     />
                     <p className='watched-text'>Watched by 12</p>
                     </div>
                 <img
-                  src="/public/images/Barry.jpg"
+                  src="/images/Barry.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
@@ -90,14 +90,14 @@ function SocialPage() {
               <div className='card-wrapper'>
                     <div className='watched-container'>
                     <img
-                    src="public/images/profile-circle-svgrepo-com.svg"
+                    src="images/profile-circle-svgrepo-com.svg"
                     alt="recommendedphoto4"
                     className="watched-container__img"
                     />
                     <p className='watched-text'>Watched by 5</p>
                     </div>
                 <img
-                  src="public/images/Lastofus.jpg"
+                  src="images/LastofUs.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
@@ -105,7 +105,7 @@ function SocialPage() {
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/looneytunes.jpg"
+                  src="/images/looneytunes.jpg"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
@@ -114,14 +114,14 @@ function SocialPage() {
               <div className='card-wrapper'>
                     <div className='watched-container'>
                     <img
-                    src="public/images/profile-circle-svgrepo-com.svg"
+                    src="images/profile-circle-svgrepo-com.svg"
                     alt="recommendedphoto4"
                     className="watched-container__img"
                     />
                     <p className='watched-text'>Watched by 20</p>
                     </div>
                 <img
-                  src="public/images/penguin.jpg"
+                  src="images/penguin.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
@@ -129,7 +129,7 @@ function SocialPage() {
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/succession.jpg"
+                  src="/images/succession.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
@@ -144,35 +144,35 @@ function SocialPage() {
             <div className="social-page__trending-friends-scroll">
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/LastofUs.jpg"
+                  src="/images/LastofUs.jpg"
                   alt="recommendedphoto1"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/succession.jpg"
+                  src="/images/succession.jpg"
                   alt="recommendedphoto2"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/haley-quinn.png"
+                  src="/images/haley-quinn.png"
                   alt="recommendedphoto3"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/DMZ.jpg"
+                  src="/images/DMZ.jpg"
                   alt="recommendedphoto4"
                   className="social-page__trending-img"
                 />
               </article>
               <article className="social-page__trending-card">
                 <img
-                  src="/public/images/DarkMaterials.jpg"
+                  src="/images/DarkMaterials.jpg"
                   alt="recommendedphoto5"
                   className="social-page__trending-img"
                 />
@@ -189,7 +189,7 @@ function SocialPage() {
           <Link to="/categories" className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/FantasyFamily200.png"
+              src="/images/FantasyFamily200.png"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -198,14 +198,14 @@ function SocialPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </Link>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/DarkMaterials.jpg"
+              src="/images/DarkMaterials.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -214,14 +214,14 @@ function SocialPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/looneytunes.jpg"
+              src="/images/looneytunes.jpg"
               alt="Episode 2"
             />
             <div className="social-page__episode-text">
@@ -230,7 +230,7 @@ function SocialPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
@@ -241,7 +241,7 @@ function SocialPage() {
           <div className="social-page__episode-card">
             <img
               className="social-page__episode-img"
-              src="/public/images/Barry.jpg"
+              src="/images/Barry.jpg"
               alt="Episode 1"
             />
             <div className="social-page__episode-text">
@@ -250,7 +250,7 @@ function SocialPage() {
             </div>
             <img
               className="three-dots-image"
-              src="/public/images/three-dots-vertical.svg"
+              src="/images/three-dots-vertical.svg"
               alt="more items"
             />
           </div>
